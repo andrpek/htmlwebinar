@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/e5315c33a2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap header-wrap">
+            <div class="header-col-1">
+                <a class="header-logo-link" href="index.html">
+                    <img class="header-logo" src="img/logo.png" alt="logo">
+                </a>
+                <a href="#" class="header-search-link">
+                    <img class="header-search" src="img/icon-search.svg" alt="search">
+                </a>
+            </div>
+            <ul class="header-col-2">
+                <li>
+                    <a class="header-menu-link" href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="header-menu-link" href="registration.html" class="header-profile-link">
+                        <i class="far fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="header-menu-link" href="cart.html" class="header-basket-link">
+                        <i class="fas fa-cart-plus"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="registration">
+        <div class="wrap registration-wrap">
+            <h1 class="registration-h1">REGISTRATION</h1>
+        </div>
+    </div>
+    <div class="registration-form">
+        <div class="wrap registration-form-wrap">
+            <form class="registration-form-left" action="#">
+                <label class="registration-form-left-label" for="inp_fio">Your Name</label>
+                <input id="inp_fio" class="registration-form-input" type="text" placeholder="First Name" required>
+                <input class="registration-form-input" type="text" placeholder="Last Name" required>
+                <div class="rb-malefemale">
+                    <label><input type="radio" name="rb-mf" value="male"><span class="span-mf">Male</span></label>
+                    <label><input type="radio" name="rb-mf" value="female"><span class="span-mf">Female</span></label>
+                </div>
+                <label class="registration-form-left-label" for="inp_details">Login details</label>
+                <input id="inp_details" class="registration-form-input" type="email" placeholder="Email" required>
+                <input class="registration-form-input" type="password" placeholder="Password" required>
+                <p class="registration-form-left-p">Please use 8 or more characters, with at least 1 number and a
+                    mixture of uppercase and lowercase
+                    letters</p>
+                <input class="registration-form-submit" type="submit" value="JOIN NOW&emsp;&rarr;">
+            </form>
+            <div class="registration-form-right">
+                <h2 class="registration-form-right-h2">LOYALTY HAS ITS PERKS</h2>
+                <h2 class="registration-form-right-h2">Get in on the loyalty program where you can earn points and
+                    unlock
+                    serious perks. Starting with these
+                    as soon as you join:
+                </h2>
+                <ul class="registration-form-right-ul">
+                    <li class="registration-form-right-li">&#10003;&emsp;15% off welcome offer</li>
+                    <li class="registration-form-right-li">&#10003;&emsp;Free shipping, returns and exchanges on all
+                        orders</li>
+                    <li class="registration-form-right-li">&#10003;&emsp;$10 off a purchase on your birthday</li>
+                    <li class="registration-form-right-li">&#10003;&emsp;Early access to products</li>
+                    <li class="registration-form-right-li">&#10003;&emsp;Exclusive offers & rewards</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe"
+        style="background-image: url(img/subscribe.jpg); background-size:cover; background-repeat: no-repeat">
+        <div class="wrap subscribe-wrap">
+            <div class="subscribe-left">
+                <img class="subscribe-left-img" src="img/subscribe_foto.png" alt="foto">
+                <h3 class="subscribe-left-h3">"Vestibulum quis porttitor dui! Quisque viverra nunc mi,&nbsp;<i>a
+                        pulvinar
+                        purus
+                        condimentum"</i></h3>
+            </div>
+            <div class="subscribe-right">
+                <h2 class="subscribe-right-h2head">SUBSCRIBE</h2>
+                <h2 class="subscribe-right-h2text">FOR OUR NEWLETTER AND PROMOTION</h2>
+                <form class="subscribe-form" action="#">
+                    <input class="subscribe-right-input" type="email" placeholder="Enter Your Email" required>
+                    <button class="subscribe-right-button" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrap footer-wrap">
+            <div class="footer-col-1">
+                <h3 class="footer-h3">&copy; 2021 Brand All Rights Reserved.</h3>
+            </div>
+            <ul class="footer-social-ul">
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-vk"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
