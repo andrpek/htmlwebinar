@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/e5315c33a2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap header-wrap">
+            <div class="header-col-1">
+                <a class="header-logo-link" href="index.html">
+                    <img class="header-logo" src="img/logo.png" alt="logo">
+                </a>
+                <a href="#" class="header-search-link">
+                    <img class="header-search" src="img/icon-search.svg" alt="search">
+                </a>
+            </div>
+            <ul class="header-col-2">
+                <li>
+                    <a class="header-menu-link" href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="header-menu-link" href="registration.html" class="header-profile-link">
+                        <i class="far fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="header-menu-link" href="cart.html" class="header-basket-link">
+                        <i class="fas fa-cart-plus"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="offer-cart">
+        <div class="wrap offer-cart-wrap">
+            <h1 class="offer-cart-wrap-h1">SHOPPING CART</h1>
+        </div>
+    </div>
+    <div class="carts">
+        <div class="wrap carts-wrap">
+            <div class="carts-left">
+                <figure class="carts-plaincard">
+                    <a href="#">
+                        <img class="cart-img" src="img/cardp-maninhat.jpg" alt="cart">
+                    </a>
+                    <img class="cart-x" src="img/icon-x.svg" alt="X">
+                    <figcaption class="carts-plaincard-text">
+                        <h2 class="carts-plaincard-text-h2">MANGO PEOPLE <br>T-SHIRT</h2>
+                        <ul class="carts-plaincard-text-ul">
+                            <li style="margin-bottom: 16px">Price: <span
+                                    class="carts-plaincard-text-ul-li-price">$300</span></li>
+                            <li style="margin-bottom: 16px">Color: <span
+                                    class="carts-plaincard-text-ul-li-desc">Red</span></li>
+                            <li style="margin-bottom: 16px">Size: <span
+                                    class="carts-plaincard-text-ul-li-desc">Xl</span></li>
+                            <li style="margin-bottom: 16px">Quantity: <span
+                                    class="carts-plaincard-text-ul-li-q">2</span></li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <figure class="carts-plaincard">
+                    <a href="#">
+                        <img class="cart-img" src="img/cardp-manwalk.jpg" alt="cart">
+                    </a>
+                    <img class="cart-x" src="img/icon-x.svg" alt="X">
+                    <figcaption class="carts-plaincard-text">
+                        <h2 class="carts-plaincard-text-h2">MANGO PEOPLE <br>T-SHIRT</h2>
+                        <ul class="carts-plaincard-text-ul">
+                            <li style="margin-bottom: 16px">Price: <span
+                                    class="carts-plaincard-text-ul-li-price">$300</span></li>
+                            <li style="margin-bottom: 16px">Color: <span
+                                    class="carts-plaincard-text-ul-li-desc">Red</span></li>
+                            <li style="margin-bottom: 16px">Size: <span
+                                    class="carts-plaincard-text-ul-li-desc">Xl</span></li>
+                            <li style="margin-bottom: 16px">Quantity: <span
+                                    class="carts-plaincard-text-ul-li-q">2</span></li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <div class="carts-left-buttons">
+                    <button class="carts-left-buttons-btn">CLEAR SHOPPING CART</button>
+                    <button class="carts-left-buttons-btn">CONTINUE SHOPPING</button>
+                </div>
+            </div>
+            <div class="carts-right">
+                <form class="carts-registration-form-1" action="#">
+                    <label for="inp_address" style="margin-bottom: 20px;">SHIPPING ADRESS</label>
+                    <input class="carts-registration-form-input" type="text" placeholder="Bangladesh" required>
+                    <input class="carts-registration-form-input" type="text" placeholder="State" required>
+                    <input class="carts-registration-form-input" type="number" placeholder="Postcode / Zip" required>
+                    <input class="registration-form-submit-quote" type="submit" value="GET A QUOTE">
+                </form>
+                <form class="carts-registration-form-2" action="#">
+                    <h3 class="carts-registration-form-2-h3-1">SUB TOTAL<span class="carts-span1">$900</span></h3>
+                    <h3 class="carts-registration-form-2-h3-2">GRAND TOTAL<span class="carts-span2"><b>$900</b></span>
+                    </h3>
+                    <hr style="width: 100%; opacity: 0.2;">
+                    <input class="registration-form-proceed" type="submit" value="PROCEED TO CHECKOUT">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe"
+        style="background-image: url(img/subscribe.jpg); background-size:cover; background-repeat: no-repeat">
+        <div class="wrap subscribe-wrap">
+            <div class="subscribe-left">
+                <img class="subscribe-left-img" src="img/subscribe_foto.png" alt="foto">
+                <h3 class="subscribe-left-h3">"Vestibulum quis porttitor dui! Quisque viverra nunc mi,&nbsp;<i>a
+                        pulvinar
+                        purus
+                        condimentum"</i></h3>
+            </div>
+            <div class="subscribe-right">
+                <h2 class="subscribe-right-h2head">SUBSCRIBE</h2>
+                <h2 class="subscribe-right-h2text">FOR OUR NEWLETTER AND PROMOTION</h2>
+                <form class="subscribe-form" action="#">
+                    <input class="subscribe-right-input" type="email" placeholder="Enter Your Email" required>
+                    <button class="subscribe-right-button" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrap footer-wrap">
+            <div class="footer-col-1">
+                <h3 class="footer-h3">&copy; 2021 Brand All Rights Reserved.</h3>
+            </div>
+            <ul class="footer-social-ul">
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-vk"></i></a>
+                </li>
+                <li>
+                    <a class="footer-social-link" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
