@@ -256,14 +256,15 @@ input {
         padding-top: 14px;
         padding-bottom: 14px;
         border: 1px solid $font_color2;
+        &-link {
+            text-decoration: none;
+            font-weight: $font_weight1;
+            font-size: 16px;
+            line-height: 19px;
+            color: #f26376;
+        }
     }
-    &-link {
-        text-decoration: none;
-        font-weight: $font_weight1;
-        font-size: 16px;
-        line-height: 19px;
-        color: #f26376;
-    }
+    
     &-slider {
         @include flxbx-algn-center();
         list-style-type: none;
