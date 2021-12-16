@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
+    <title>Catalog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
@@ -45,62 +45,44 @@
         </div>
     </header>
 
-    <div class="offer">
-        <div class="wrap offer-wrap">
-            <div class="offer-left">
-                <!-- <img src="img/offer-man.png" alt="man"> -->
-                <video style="border-radius: 10px; opacity: 0.5;" src="video/swimmers.mp4" height="749" loop autoplay
-                    muted></video>
-            </div>
-            <div class="offer-right">
-                <h1 class="offer-right-h1"><span class="offer-right-h1-sbold">THE BRAND</span><br>
-                    <span class="offer-right-h1-slx">OF LUXERIOUS </span><span
-                        class="offer-right-h1-sred">FASHION</span>
-                </h1>
-                <!-- <img src="img/offer-logo.png" alt="logooffer"> -->
-            </div>
+    <div class="inner-header">
+        <div class="wrap inner-header-wrap">
+            <h1 class="inner-header-wrap-h1">NEW ARRIVALS</h1>
+            <nav class="breadcrumbs">
+                <ul class="breadcrumbs-list">
+                    <li class="breadcrumbs-item">
+                        <a href="index.html" class="breadcrumbs-link">home</a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a href="catalog.html" class="breadcrumbs-link">MEN</a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link breadcrumbs-link--current">NEW ARRIVALS </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 
-    <div class="categories">
-        <div class="wrap categories-wrap">
-            <a href="#" style="text-decoration: none;">
-                <div class="categories-card" style="background-image: url(img/card-women.jpg);
-            background-size: cover; background-repeat: no-repeat; ">
-                    <h3 class="categories-card-h3-1">30% OFF</h3>
-                    <h3 class="categories-card-h3-2">FOR WOMEN</h3>
-                </div>
-            </a>
-            <a href="#" style="text-decoration: none;">
-                <div class="categories-card" style="background-image: url(img/card-men.jpg);
-            background-size: cover; background-repeat: no-repeat; ">
-                    <h3 class="categories-card-h3-1">HOT DEAL</h3>
-                    <h3 class="categories-card-h3-2">FOR MEN</h3>
-                </div>
-            </a>
-            <a href="#" style="text-decoration: none;">
-                <div class="categories-card" style="background-image: url(img/card-kids.jpg);
-            background-size: cover; background-repeat: no-repeat; ">
-                    <h3 class="categories-card-h3-1">NEW ARRIVALS</h3>
-                    <h3 class="categories-card-h3-2">FOR KIDS</h3>
-                </div>
-            </a>
-            <a href="#" style="text-decoration: none;">
-                <div class="categories-card-acc" style="background-image: url(img/card-acc.jpg);
-            background-size: cover; background-repeat: no-repeat; ">
-                    <h3 class="categories-card-h3-1">LUXURIOUS & TRENDY</h3>
-                    <h3 class="categories-card-h3-2">ACCESORIES</h3>
-                </div>
-            </a>
+    <nav class="catalog-nav">
+        <div class="wrap catalog-nav-wrap">
+            <div class="catalog-nav-wrap-left">
+                <h3 class="catalog-nav-wrap-left-h3">FILTER</h3><img src="img/icon-grow-bars.svg" alt="bars">
+            </div>
+            <ul class="catalog-nav-wrap-center">
+                <li><span class="catalog-nav-wrap-center-span-text">TRENDING NOW</span><span><img
+                            src="img/icon-arrow-down.svg" alt="arrow"></span></li>
+                <li><span class="catalog-nav-wrap-center-span-text">SIZE</span><span><img src="img/icon-arrow-down.svg"
+                            alt="arrow"></span></li>
+                <li><span class="catalog-nav-wrap-center-span-text">PRICE</span><span><img src="img/icon-arrow-down.svg"
+                            alt="arrow"></span></li>
+            </ul>
+            <div class="catalog-nav-wrap-right"></div>
         </div>
-    </div>
+    </nav>
 
-    <div class="products">
+    <div class="products" style="margin-top: 0;">
         <div class="wrap">
-            <div class="products-header">
-                <h2 class="products-header-h2">Featured Items</h2>
-                <h3 class="products-header-h3">Shop for items based on what we featured in this week</h3>
-            </div>
             <div class="products-cards">
                 <figure class="products-cards-plaincard">
                     <a href="#">
@@ -117,7 +99,7 @@
                 </figure>
                 <figure class="products-cards-plaincard">
                     <a href="#">
-                        <img src="img/cardp-oneleggirl.jpg" alt="card">
+                        <img src="img/cardp-manwalk.jpg" alt="card" width="100%">
                     </a>
                     <figcaption class="products-cards-plaincard-text">
                         <h3 class="products-cards-plaincard-text1row">ELLERY X M'O CAPSULE</h3>
@@ -156,7 +138,7 @@
                 </figure>
                 <figure class="products-cards-plaincard">
                     <a href="#">
-                        <img src="img/cardp-shorthairwomen.jpg" alt="card">
+                        <img src="img/cardp-mansmile.jpg" alt="card">
                     </a>
                     <figcaption class="products-cards-plaincard-text">
                         <h3 class="products-cards-plaincard-text1row">ELLERY X M'O CAPSULE</h3>
@@ -169,7 +151,7 @@
                 </figure>
                 <figure class="products-cards-plaincard">
                     <a href="#">
-                        <img src="img/cardp-okwomen.jpg" alt="card">
+                        <img src="img/cardp-mansleephat.jpg" alt="card">
                     </a>
                     <figcaption class="products-cards-plaincard-text">
                         <h3 class="products-cards-plaincard-text1row">ELLERY X M'O CAPSULE</h3>
@@ -180,11 +162,60 @@
                         <h3 class="products-cards-plaincard-text3row">$52.00</h3>
                     </figcaption>
                 </figure>
+                <figure class="products-cards-plaincard">
+                    <a href="#">
+                        <img src="img/cardp-mansmileshirt.jpg" alt="card">
+                    </a>
+                    <figcaption class="products-cards-plaincard-text">
+                        <h3 class="products-cards-plaincard-text1row">ELLERY X M'O CAPSULE</h3>
+                        <h3 class="products-cards-plaincard-text2row">Known for her sculptural takes on traditional
+                            tailoring, Australian arbiter of cool Kym
+                            Ellery
+                            teams up with Moda Operandi.</h3>
+                        <h3 class="products-cards-plaincard-text3row">$52.00</h3>
+                    </figcaption>
+                </figure>
+                <figure class="products-cards-plaincard">
+                    <a href="#">
+                        <img src="img/cardp-dogman.jpg" alt="card">
+                    </a>
+                    <figcaption class="products-cards-plaincard-text">
+                        <h3 class="products-cards-plaincard-text1row">ELLERY X M'O CAPSULE</h3>
+                        <h3 class="products-cards-plaincard-text2row">Known for her sculptural takes on traditional
+                            tailoring, Australian arbiter of cool Kym
+                            Ellery
+                            teams up with Moda Operandi.</h3>
+                        <h3 class="products-cards-plaincard-text3row">$52.00</h3>
+                    </figcaption>
+                </figure>
+                <figure class="products-cards-plaincard">
+                    <a href="#">
+                        <img src="img/cardp-thinkman.jpg" alt="card">
+                    </a>
+                    <figcaption class="products-cards-plaincard-text">
+                        <h3 class="products-cards-plaincard-text1row">ELLERY X M'O CAPSULE</h3>
+                        <h3 class="products-cards-plaincard-text2row">Known for her sculptural takes on traditional
+                            tailoring, Australian arbiter of cool Kym
+                            Ellery
+                            teams up with Moda Operandi.</h3>
+                        <h3 class="products-cards-plaincard-text3row">$52.00</h3>
+                    </figcaption>
+                </figure>
+
             </div>
             <div class="products-browse">
-                <div class="products-browse-button">
-                    <a class="product-browse-link" href="#">Browse All Product</a>
-                </div>
+                <ul class="products-browse-slider">
+                    <li><a class="products-browse-slider-link" href="#"><img src="img/icon-arrow-left.svg"
+                                alt="left"></a></li>
+                    <li><a class="products-browse-slider-link" href="#">1</a></li>
+                    <li><a class="products-browse-slider-link" href="#">2</a></li>
+                    <li><a class="products-browse-slider-link" href="#">3</a></li>
+                    <li><a class="products-browse-slider-link" href="#">4</a></li>
+                    <li><a class="products-browse-slider-link" href="#">5</a></li>
+                    <li><a class="products-browse-slider-link" href="#">6...20</a></li>
+                    <li><a class="products-browse-slider-link" href="#"><img src="img/icon-arrow-right.svg"
+                                alt="left"></a></li>
+                </ul>
             </div>
         </div>
     </div>
