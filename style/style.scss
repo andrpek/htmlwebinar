@@ -90,6 +90,7 @@ input {
         text-decoration: none;
         &:hover {
             color: $font_color2;
+            transition-duration: 0.3s;
         }
     }
 }
@@ -250,21 +251,20 @@ input {
     @include flxbx-algn-center();
     justify-content: center;
     &-button {
-        @include flxbx-algn-center();
-        justify-content: center;
-        width: 211px;
-        padding-top: 14px;
-        padding-bottom: 14px;
+        padding: 14px 38px;
         border: 1px solid $font_color2;
-        &-link {
-            text-decoration: none;
-            font-weight: $font_weight1;
-            font-size: 16px;
-            line-height: 19px;
-            color: #f26376;
+        font-weight: $font_weight1;
+        font-size: 16px;
+        line-height: 19px;
+        color: #f26376;
+        background-color: white;
+        transition: 0.2s;
+        &:hover {
+            color: white;
+            background-color: #f26376;
+            border: 1px single white;
         }
     }
-    
     &-slider {
         @include flxbx-algn-center();
         list-style-type: none;
@@ -293,17 +293,14 @@ input {
         @include flxbx-algn-center();
         justify-content: space-around;
     }
-    &-delivery {
+    &-lnk {
         @include flxbx-algn-center();
         flex-direction: column;
-    }
-    &-discount {
-        @include flxbx-algn-center();
-        flex-direction: column;
-    }
-    &-quality {
-        @include flxbx-algn-center();
-        flex-direction: column;
+        text-decoration: none;
+        &:hover {
+            transition-duration: 0.3s;
+            transform: scale(1.05);
+        }
     }
     &-p {
         font-weight: $font_weight1;
@@ -458,10 +455,15 @@ input {
         line-height: 17px;
         color: $font_color0;
         /* height: 50px; */
-        padding: 17px;
-        width: 167px;
+        padding: 15px;
+        width: 165px;
         background-color: $font_color2;
-        border-style: none;
+        border: 1px solid $font_color2;
+        &:hover {
+            transition-duration: 0.3s;
+            background-color: $font_color0;
+            color: $font_color2;
+        }
     }
 }
 
@@ -522,6 +524,8 @@ input {
         color: black;
         &:hover {
             background-color: #f16d7f;
+            transition-duration: 0.3s;
+            transition-property: background-color;
         }
     }
 }
@@ -557,6 +561,11 @@ input {
                 line-height: 17px;
                 color: #000000;
                 padding: 17px 40px;
+                &:hover {
+                    background-color: #a4a4a4;
+                    color: #fff;
+                    transition-duration: 0.3s;
+                }
             }
         }
     }
@@ -666,6 +675,11 @@ input {
     background-color: #fff;
     border-style: none;
     border: 1px solid #a4a4a4;
+    &:hover {
+        transition-duration: 0.3s;
+        color: #fff;
+        background-color: #a4a4a4;
+    }
 }
 
 .carts-registration-form-input {
@@ -693,13 +707,18 @@ input {
 .registration-form-proceed {
     margin-top: 17px;
     background: $font_color2;
-    border-style: none;
+    border: 1px solid $font_color2;
     font-weight: $font_weight2;
     font-size: 16px;
     line-height: 19px;
     color: $font_color0;
     width: 100%;
-    padding: 16px 41px;
+    padding: 14px 39px;
+    &:hover {
+        transition-duration: 0.3s;
+        background: $font_color0;
+        color: $font_color2;
+    }
 }
 
 .breadcrumbs-list {

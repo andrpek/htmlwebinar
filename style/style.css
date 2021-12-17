@@ -124,6 +124,8 @@ input {
 
 .header-menu-link:hover {
   color: #f16d7f;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .header-menu-link .fa-bars {
@@ -353,27 +355,21 @@ input {
 }
 
 .products-browse-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 211px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 14px 38px;
   border: 1px solid #f16d7f;
-}
-
-.products-browse-button-link {
-  text-decoration: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #f26376;
+  background-color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.products-browse-button:hover {
+  color: white;
+  background-color: #f26376;
+  border: 1px single white;
 }
 
 .products-browse-slider {
@@ -419,7 +415,7 @@ input {
       justify-content: space-around;
 }
 
-.benefits-delivery {
+.benefits-lnk {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,32 +426,14 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-decoration: none;
 }
 
-.benefits-discount {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.benefits-quality {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.benefits-lnk:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .benefits-p {
@@ -663,10 +641,17 @@ input {
   line-height: 17px;
   color: #ffffff;
   /* height: 50px; */
-  padding: 17px;
-  width: 167px;
+  padding: 15px;
+  width: 165px;
   background-color: #f16d7f;
-  border-style: none;
+  border: 1px solid #f16d7f;
+}
+
+.registration-form-submit:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background-color: #ffffff;
+  color: #f16d7f;
 }
 
 .rb-malefemale {
@@ -761,6 +746,10 @@ input {
 
 .footer-social-link:hover {
   background-color: #f16d7f;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 
 .carts {
@@ -824,6 +813,13 @@ input {
   line-height: 17px;
   color: #000000;
   padding: 17px 40px;
+}
+
+.carts-left-buttons-btn:hover {
+  background-color: #a4a4a4;
+  color: #fff;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .carts-plaincard {
@@ -961,6 +957,13 @@ input {
   border: 1px solid #a4a4a4;
 }
 
+.registration-form-submit-quote:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: #fff;
+  background-color: #a4a4a4;
+}
+
 .carts-registration-form-input {
   border: 1px solid #a4a4a4;
   font-weight: 300;
@@ -986,13 +989,20 @@ input {
 .registration-form-proceed {
   margin-top: 17px;
   background: #f16d7f;
-  border-style: none;
+  border: 1px solid #f16d7f;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
   width: 100%;
-  padding: 16px 41px;
+  padding: 14px 39px;
+}
+
+.registration-form-proceed:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background: #ffffff;
+  color: #f16d7f;
 }
 
 .breadcrumbs-list {
