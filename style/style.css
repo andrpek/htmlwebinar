@@ -433,7 +433,7 @@ input {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: inherit;
 }
 
@@ -667,7 +667,7 @@ input {
 .subscribe-right-button:hover {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
-  background: #E05C6E;
+  background: #e05c6e;
   cursor: pointer;
 }
 
@@ -1171,5 +1171,187 @@ input {
 .breadcrumbs-link[href]:hover {
   text-decoration: underline;
   color: #f16d7f;
+}
+
+.product-offer {
+  height: 777px;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #eaeaea;
+}
+
+.product-offer-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-style: none;
+  padding: 13px 17px;
+  background-color: rgba(42, 42, 42, 0.15);
+}
+
+.product-offer-button:hover {
+  fill: #f16d7f;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+.product-desc-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -65px;
+  border: 1px solid #eaeaea;
+  height: 601px;
+  background-color: white;
+}
+
+.product-desc-wrap-text1 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+  margin-top: 65px;
+}
+
+.product-desc-wrap-divider1 {
+  border: 1px solid #ef5b70;
+  height: 1px;
+  width: 61px;
+  margin-top: 12px;
+}
+
+.product-desc-wrap-text2 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4d4d;
+  margin-top: 12px;
+}
+
+.product-desc-wrap-text3 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5e5e5e;
+  width: 555px;
+  margin-top: 48px;
+}
+
+.product-desc-wrap-text4 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef5b70;
+  margin-top: 32px;
+}
+
+.product-desc-wrap-divider2 {
+  border-top: 1px solid #eaeaea;
+  height: 0px;
+  width: 639px;
+  margin-top: 65px;
+}
+
+.product-desc-wrap-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+  border: 1px solid #f26376;
+  background-color: inherit;
+  margin-top: 48px;
+}
+
+.product-desc-wrap-button-svg {
+  fill: #f26376;
+  margin: 15px 24px 9px 24px;
+}
+
+.product-desc-wrap-button-text {
+  margin-right: 57px;
+}
+
+.product-desc-wrap-button:hover {
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background-color: #f26376;
+  color: white;
+}
+
+.product-desc-wrap-button:hover .product-desc-wrap-button-svg {
+  fill: white;
+}
+
+.product-desc-ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 65px;
+}
+
+.product-desc-ul-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+  border-style: none;
+  background-color: inherit;
+}
+
+.product-desc-ul-button-img {
+  margin-left: 10px;
+}
+
+.product-desc-ul-button:hover .product-desc-ul-button-img {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.product-desc-ul-button:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

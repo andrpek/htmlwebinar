@@ -58,7 +58,7 @@ input {
             &:hover {
                 cursor: pointer;
             }
-         }
+        }
     }
     &-center {
         width: 364px;
@@ -103,7 +103,7 @@ input {
     }
     &-search:hover {
         transition-duration: 0.3s;
-        transform:rotate(90deg);
+        transform: rotate(90deg);
     }
     &-logo-link {
         margin-right: 41px;
@@ -250,7 +250,7 @@ input {
             height: 581px;
             background-color: #f8f8f8;
             margin-bottom: 30px;
-            position:relative;
+            position: relative;
             &:hover .products-cards-plaincard-overlay {
                 opacity: 0.5;
             }
@@ -298,7 +298,7 @@ input {
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 17px;
-                    color: #FFFFFF;
+                    color: #ffffff;
                     background-color: inherit;
                     &:hover {
                         cursor: pointer;
@@ -446,7 +446,6 @@ input {
                 transition-duration: 0.3s;
                 background: #d4d4d4;
             }
-
         }
         &-button {
             background-color: $font_color2;
@@ -459,7 +458,7 @@ input {
             padding: 20px;
             &:hover {
                 transition-duration: 0.3s;
-                background: #E05C6E;
+                background: #e05c6e;
                 cursor: pointer;
             }
         }
@@ -841,4 +840,131 @@ input {
 .breadcrumbs-link[href]:hover {
     text-decoration: underline;
     color: #f16d7f;
+}
+
+.product-offer {
+    height: 777px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eaeaea;
+    &-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        padding: 13px 17px;
+        background-color: rgba(42, 42, 42, 0.15);
+        &:hover {
+            fill: #f16d7f;
+            cursor: pointer;
+            transition-duration: 0.3s;
+            transform: rotateX(180deg);
+        }
+    }
+}
+
+.product-desc-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -65px;
+    border: 1px solid #eaeaea;
+    height: 601px;
+    background-color: white;
+    &-text1 {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #f16d7f;
+        margin-top: 65px;
+    }
+    &-divider1 {
+        border: 1px solid #ef5b70;
+        height: 1px;
+        width: 61px;
+        margin-top: 12px;
+    }
+    &-text2 {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4d4d4d;
+        margin-top: 12px;
+    }
+    &-text3 {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #5e5e5e;
+        width: 555px;
+        margin-top: 48px;
+    }
+    &-text4 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ef5b70;
+        margin-top: 32px;
+    }
+
+    &-divider2 {
+        border-top: 1px solid #eaeaea;
+        height: 0px;
+        width: 639px;
+        margin-top: 65px;
+    }
+    &-button {
+        @include flxbx-algn-center();
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #f26376;
+        border: 1px solid #f26376;
+        background-color: inherit;
+        margin-top: 48px;
+        &-svg {
+            fill: #f26376;
+            margin: 15px 24px 9px 24px;
+        }
+        &-text {
+            margin-right: 57px;
+        }
+        &:hover {
+            cursor: pointer;
+            transition-duration: 0.3s;
+            background-color: #f26376;
+            color: white;
+        }
+        &:hover .product-desc-wrap-button-svg {
+            fill: white;
+        }
+    }
+}
+
+.product-desc-ul {
+    list-style-type: none;
+    @include flxbx-algn-center();
+    margin-top: 65px;
+    &-button {
+        @include flxbx-algn-center();
+        margin-right: 30px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6f6e6e;
+        border-style: none;
+        background-color: inherit;
+        &-img {
+            margin-left: 10px;
+        }
+        &:hover .product-desc-ul-button-img {
+            transition-duration: 0.3s;
+            transform: rotate(-90deg);
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
