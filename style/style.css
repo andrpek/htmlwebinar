@@ -601,6 +601,12 @@ input {
   opacity: 0.5;
 }
 
+@media (max-width: 768px) {
+  .products-cards-plaincard-last {
+    display: none;
+  }
+}
+
 .products-cards-plaincard-text {
   margin-top: 24px;
   margin-left: 16px;
@@ -1202,6 +1208,15 @@ input {
           justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .carts-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .carts-right {
   margin-left: 128px;
   width: 359px;
@@ -1217,6 +1232,23 @@ input {
           align-items: flex-start;
 }
 
+@media (max-width: 768px) {
+  .carts-right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 130px;
+  }
+}
+
 .carts-left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1230,6 +1262,14 @@ input {
           align-items: flex-start;
 }
 
+@media (max-width: 768px) {
+  .carts-left {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .carts-left-buttons {
   width: 652px;
   display: -webkit-box;
@@ -1239,6 +1279,15 @@ input {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 128px;
+}
+
+@media (max-width: 768px) {
+  .carts-left-buttons {
+    padding-bottom: 64px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 .carts-left-buttons-btn {
@@ -1331,6 +1380,12 @@ input {
   padding-top: 20px;
 }
 
+@media (max-width: 768px) {
+  .carts-registration-form-1 {
+    width: 360px;
+  }
+}
+
 .carts-registration-form-2 {
   width: 100%;
   display: -webkit-box;
@@ -1346,6 +1401,12 @@ input {
   background-color: #f5f3f3;
   padding: 40px;
   margin-top: 57px;
+}
+
+@media (max-width: 768px) {
+  .carts-registration-form-2 {
+    width: 360px;
+  }
 }
 
 .carts-registration-form-2-h3-1 {
